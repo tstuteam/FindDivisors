@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FindDivisorsLibrary
 {
@@ -66,9 +64,7 @@ namespace FindDivisorsLibrary
                     resut.Add(i);
 
                     if (i != n / i)
-                    {
                         resut.Add(n / i);
-                    }
                 }
             }
 
